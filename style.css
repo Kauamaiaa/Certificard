@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #e10832 96.03%);
+  font-family: "Source Serif Pro", serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 44px;
+}
+.cabecalho {
+  display: flex;
+    justify-content: space-between;
+}
+
+
+.perfil {
+  display: flex;
+  
+}
+.perfil-foto {
+  border-radius: 450px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title {
+  margin-left: 16px;
+}
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.title h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  background: #ECF4FF;
+  border: 2px solid #0E1D2F;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #0E1D2F;
+  margin-top: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.tema button:hover {
+  background: #0E1D2F;
+    color: #ECF4FF;
+}
+
+.Projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #4001FF 27.49%, #FF5DFF 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16px, 16, 0.42);
+  border-radius: 20px;
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projeto-item  {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+
+
+
+.Redes-Sociais h4 {
+  font-weight: 400;
+    font-size: 40px;
+     align-items: left;
+}
+.Github {
+  border-radius: 460px;
+  max-height: 40px;
+  box-shadow: filter: drop-shadow(0px 4px 4px rgba(0,0,0.25));
+  margin-left:6px
+}
+.instagram {
+  border-radius: 460px;
+  max-height: 40px;
+  box-shadow: filter: drop-shadow(0px 4px 4px rgba(0,0,0.25))
+  
+}
+a {
+  text-decoration: none;
+  color: #1C1C1C
+}
+.twitter {
+    border-radius: 460px;
+  max-height: 40px;
+  box-shadow: filter: drop-shadow(0px 4px 4px rgba(0,0,0.25));
+    margin-left: 5px;
+}
+
+.dark {
+  background: linear-gradient(238.85deg,  #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+    color: #F6F6F6;
+}
+.dark .Projetos  {
+  color: #1C1C1C
+}
+.dark .tema button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+    border: 1px solid #F7F7F7;
+  transition: 0.2s;
+  cursor: pointer
+}
+.dark .tema button:hover {
+  background: #0E1D2F;
+    color: #ECF4FF;
+}
